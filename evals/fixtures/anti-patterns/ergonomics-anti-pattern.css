@@ -1,0 +1,13 @@
+/* Anti-pattern CSS seeding missing reduced-motion and undersized touch targets */
+
+@keyframes pulseUrgentBanner {
+  0% { opacity: 0.35; transform: scale(0.98); }
+  100% { opacity: 1; transform: scale(1.02); }
+}
+
+.emergency-actuator,
+button.compact-stop {
+  height: 28px;
+  width: 30px;
+  animation: pulseUrgentBanner 1.2s infinite alternate;
+}

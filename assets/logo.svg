@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Human-AI Interaction Guidance emblem">
+  <!-- Calibrated 10% inset frame (content spans x:14..114, y:14..114) for crisp rendering on both light and dark UI surfaces -->
+  <rect x="14" y="14" width="100" height="100" rx="22" stroke="#0891B2" stroke-width="5.5" fill="none"/>
+  <!-- Left Human Agency Bracket -->
+  <path d="M46 36H38C33.5817 36 30 39.5817 30 44V55C30 58.3137 27.3137 61 24 61V67C27.3137 67 30 69.6863 30 73V84C30 88.4183 33.5817 92 38 92H46" stroke="#2563EB" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right Agent Boundary Bracket -->
+  <path d="M82 36H90C94.4183 36 98 39.5817 98 44V55C98 58.3137 100.686 61 104 61V67C100.686 67 98 69.6863 98 73V84C98 88.4183 94.4183 92 90 92H82" stroke="#2563EB" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Central Supervisory Escrow Prism / AI Beacon -->
+  <path d="M64 38L70.2 57.8L90 64L70.2 70.2L64 90L57.8 70.2L38 64L57.8 57.8L64 38Z" fill="url(#haiiBeaconGrad)" stroke="#0F172A" stroke-opacity="0.18" stroke-width="1.5"/>
+  <!-- Inner Human-in-the-Loop Core -->
+  <circle cx="64" cy="64" r="5.5" fill="#FFFFFF"/>
+  <defs>
+    <linearGradient id="haiiBeaconGrad" x1="38" y1="38" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="0.55" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+</svg>

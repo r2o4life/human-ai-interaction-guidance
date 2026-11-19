@@ -1,0 +1,39 @@
+{
+  "name": "human-ai-interaction-guidance",
+  "version": "1.0.0",
+  "description": "Supervisory Human-AI Interaction (HAII) engineering standards, autonomy escrow gates, jargon quarantine, and cognitive ergonomics.",
+  "author": {
+    "name": "Arturo Roberto Garcia",
+    "url": "https://www.artrgarcia.com"
+  },
+  "homepage": "https://www.artrgarcia.com/haii-guidance",
+  "repository": "https://github.com/r2o4life/human-ai-interaction-guidance",
+  "license": "Apache-2.0",
+  "keywords": [
+    "haii",
+    "human-ai-interaction",
+    "agentic-ux",
+    "epistemic-submergence",
+    "cognitive-ergonomics",
+    "best-practices"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Human-AI Interaction Guidance",
+    "shortDescription": "Supervisory AI UX & cognitive ergonomics",
+    "longDescription": "Human-AI Interaction Guidance embeds 27 zero-dependency standards across Agentic Experience (D51), Content Design & Epistemic Submergence (D25), Cognitive Ergonomics (D28), and 3-Order Progressive Comprehension (D29) directly into AI coding agents, complementing modern-web-guidance without overlap.",
+    "developerName": "Arturo Roberto Garcia",
+    "category": "Developer Tools",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://www.artrgarcia.com/haii-guidance",
+    "supportURL": "https://github.com/r2o4life/human-ai-interaction-guidance/issues",
+    "defaultPrompt": [
+      "Audit this project for supervisory AI UX, jargon leaks, and cognitive ergonomics gaps",
+      "Implement a 900s time-locked autonomy escrow gate with LegalHold 409 handling and rollback"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "human-ai-interaction-guidance",
+  "version": "1.0.0",
+  "displayName": "Human-AI Interaction Guidance",
+  "description": "Supervisory Human-AI Interaction (HAII) engineering standards for coding agents: 4-tier autonomy escrow gates, epistemic submergence, cognitive ergonomics, and 3-order progressive comprehension.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Arturo Roberto Garcia (Parallel Paradigm)",
+  "homepage": "https://www.artrgarcia.com/haii-guidance",
+  "repository": "git+https://github.com/r2o4life/human-ai-interaction-guidance.git",
+  "bugs": {
+    "url": "https://github.com/r2o4life/human-ai-interaction-guidance/issues"
+  },
+  "bin": {
+    "haii-guidance": "skills/human-ai-interaction-guidance/haii-guidance.mjs"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "haii",
+    "human-ai-interaction",
+    "agentic-ux",
+    "autonomy-escrow",
+    "epistemic-submergence",
+    "cognitive-ergonomics",
+    "progressive-comprehension",
+    "agent-skills"
+  ],
+  "categories": [
+    "AI",
+    "Developer Tools"
+  ],
+  "contributes": {
+    "chatSkills": [
+      {
+        "path": "./skills/human-ai-interaction-guidance/SKILL.md"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node skills/human-ai-interaction-guidance/build-index.mjs",
+    "eval": "node evals/run-evals.mjs",
+    "test": "node evals/run-evals.mjs",
+    "audit:self": "node skills/human-ai-interaction-guidance/haii-guidance.mjs audit ."
+  }
+}

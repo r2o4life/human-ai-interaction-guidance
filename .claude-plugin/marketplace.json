@@ -1,0 +1,15 @@
+{
+  "name": "parallel-paradigm",
+  "description": "Human-AI Interaction (HAII) engineering guidance and supervisory AI UX standards for AI coding agents.",
+  "owner": {
+    "name": "Arturo Roberto Garcia"
+  },
+  "plugins": [
+    {
+      "name": "human-ai-interaction-guidance",
+      "source": "./",
+      "description": "Supervisory Human-AI Interaction (HAII) engineering standards, autonomy escrow gates, jargon quarantine, and cognitive ergonomics.",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2026-11-19T22:53:54.427Z",
+  "totalGuides": 27,
+  "retrievalBench": {
+    "totalPrompts": 30,
+    "recallAt1": 0.9667,
+    "recallAt3": 1,
+    "mrr": 0.9833,
+    "passed": true
+  },
+  "auditBench": {
+    "antiPatternFiles": 3,
+    "totalSeededViolations": 12,
+    "detectedViolations": 12,
+    "recallRate": 1,
+    "goldenFiles": 3,
+    "falsePositives": 0,
+    "passed": true
+  },
+  "manifestChecks": {
+    "totalManifests": 13,
+    "validManifests": 13,
+    "passed": true
+  },
+  "overallPassed": true
+}
